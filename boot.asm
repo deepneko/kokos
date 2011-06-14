@@ -36,5 +36,5 @@ read:
 		
 msgBack	db '.', 0x67
 
-times	510-($-$$) db 0
-		dw		0AA55h
+times   510-($-$$) db 0
+		dw		0xaa55
